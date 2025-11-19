@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Codigo
+      - name: Checkout Code
         uses: actions/checkout@v4
 
       - name: Copy files via SCP
